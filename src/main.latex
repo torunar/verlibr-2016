@@ -23,6 +23,11 @@
 % заголовки
 \usepackage{caption}
 \usepackage{subcaption}
+% стихи
+\usepackage{verse}
 
 \begin{document}
+
+\input{./poetry.latex}
+
 \end{document}

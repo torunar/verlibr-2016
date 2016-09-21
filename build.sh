@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
+cd ./src
 pdflatex                      \
 	--file-line-error         \
-	--output-directory ./bin  \
+	--output-directory ../bin \
 	--halt-on-error           \
-	./src/main.latex
+	main.latex

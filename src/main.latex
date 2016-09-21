@@ -1,0 +1,28 @@
+\documentclass[14pt,a4paper]{extarticle}
+% параметры страницы
+\usepackage[left=2.5cm,right=1cm,top=1.5cm,bottom=2cm,bindingoffset=0cm]{geometry}
+% отступы
+\usepackage{indentfirst}
+\setlength\parindent{1.24cm}
+% шрифты
+\usepackage[warn]{mathtext}
+\usepackage{amsmath}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{times}
+\usepackage{cyrtimes}
+\usepackage{multirow}
+% градус
+\usepackage{gensymb}
+% полуторный интервал
+\renewcommand{\baselinestretch}{1.5}
+% таблицы на своих местах
+\usepackage{float}
+% работа с графикой
+\usepackage{graphicx}
+% заголовки
+\usepackage{caption}
+\usepackage{subcaption}
+
+\begin{document}
+\end{document}

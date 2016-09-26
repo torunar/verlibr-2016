@@ -1,10 +1,10 @@
 \documentclass[14pt,a4paper]{extarticle}
-% параметры страницы
+% package parameters
 \usepackage[left=2.5cm,right=1cm,top=1.5cm,bottom=2cm,bindingoffset=0cm]{geometry}
-% отступы
+% parapgraph indents
 \usepackage{indentfirst}
 \setlength\parindent{1.24cm}
-% шрифты
+% fonts
 \usepackage[warn]{mathtext}
 \usepackage{amsmath}
 \usepackage[utf8x]{inputenc}
@@ -12,19 +12,22 @@
 \usepackage{times}
 \usepackage{cyrtimes}
 \usepackage{multirow}
-% градус
+% degree symbol
 \usepackage{gensymb}
-% полуторный интервал
+% interval
 \renewcommand{\baselinestretch}{1.5}
-% таблицы на своих местах
+% tables
 \usepackage{float}
-% работа с графикой
+% graphics
 \usepackage{graphicx}
-% заголовки
+% captions
 \usepackage{caption}
 \usepackage{subcaption}
-% стихи
+% poetry
 \usepackage{verse}
+% epigraphs
+\usepackage{epigraph}
+\setlength{\epigraphrule}{0pt}
 
 \begin{document}
 

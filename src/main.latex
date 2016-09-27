@@ -33,4 +33,6 @@
 
 \input{./poetry.latex}
 
+\input{./prose.latex}
+
 \end{document}

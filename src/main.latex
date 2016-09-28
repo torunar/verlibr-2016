@@ -5,24 +5,14 @@
 \usepackage{indentfirst}
 \setlength\parindent{1.24cm}
 % fonts
-\usepackage[warn]{mathtext}
-\usepackage{amsmath}
 \usepackage[utf8x]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{times}
 \usepackage{cyrtimes}
-\usepackage{multirow}
-% degree symbol
-\usepackage{gensymb}
 % interval
 \renewcommand{\baselinestretch}{1.5}
-% tables
-\usepackage{float}
 % graphics
 \usepackage{graphicx}
-% captions
-\usepackage{caption}
-\usepackage{subcaption}
 % poetry
 \usepackage{verse}
 \newcommand{\poemsubtitle}[1]{

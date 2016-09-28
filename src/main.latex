@@ -25,6 +25,11 @@
 \usepackage{subcaption}
 % poetry
 \usepackage{verse}
+\newcommand{\poemsubtitle}[1]{
+    \begin{center}
+    #1
+    \end{center}\par
+}
 % epigraphs
 \usepackage{epigraph}
 \setlength{\epigraphrule}{0pt}

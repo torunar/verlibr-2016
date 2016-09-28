@@ -28,6 +28,9 @@
 % epigraphs
 \usepackage{epigraph}
 \setlength{\epigraphrule}{0pt}
+% increased letter space
+\usepackage{soulutf8}
+\sodef\so{}{.03em}{1em plus1em}{.3em plus.05em minus.05em}
 
 \begin{document}
 

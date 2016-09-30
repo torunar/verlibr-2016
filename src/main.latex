@@ -50,4 +50,6 @@
 
 \input{./prose.latex}
 
+\input{./authors.latex}
+
 \end{document}

@@ -1,0 +1,31 @@
+% title of a section
+\newcommand{\ssection}[1]{
+    \clearpage
+    \section*{
+        \so{#1}
+    }
+}
+
+% author name
+\newcommand{\aauthor}[2][\clearpage]{{
+    #1
+    \subsection*{
+        \textit{#2}
+    }
+}}
+
+% title
+\newcommand{\ttitle}[1]{
+    \subsubsection*{
+        \centering
+        \so{#1}
+    }
+}
+
+% subtitle
+\newcommand{\subttitle}[1]{
+    \subsubsection*{
+        \centering
+        \so{#1}
+    }
+}

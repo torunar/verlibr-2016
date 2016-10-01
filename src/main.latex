@@ -1,7 +1,7 @@
 \documentclass[14pt,a4paper]{extarticle}
 
 % package parameters
-\usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2.25cm,bindingoffset=0cm]{geometry}
+\usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
 
 % parapgraph indents
 \usepackage{indentfirst}
@@ -14,10 +14,11 @@
 \usepackage[russian]{babel}
 
 % interval
-\linespread{1.5}
+\linespread{1.4}
 
 % graphics
 \usepackage{graphicx}
+\usepackage{float}
 
 % poetry
 \usepackage{verse}
@@ -37,9 +38,25 @@
 \titleformat{\subsection}
     {\normalfont\raggedleft}{\thesubsection}{1em}{}
 \titlespacing*{\subsection}
-    {0pt}{0.5em}{1.5em}
+    {0pt}{1em}{1.5em}
 \titlespacing*{\subsubsection}
-    {0pt}{2em}{0.8em}
+    {0pt}{2.5em}{0.5em}
+
+% toc styling
+\usepackage{titletoc}
+\titlecontents{section}
+    [0pt]
+    {}
+    {\contentsmargin{0pt}\thecontentslabel\enspace}
+    {\contentsmargin{0pt}}
+    {\titlerule*[1em]{.}\contentspage}
+    []
+
+% toc title
+\addto\captionsrussian{
+  \renewcommand{\contentsname}
+    {СОДЕРЖАНИЕ}
+}
 
 % custom commands
 \input{./steroids.latex}
@@ -51,5 +68,7 @@
 \input{./prose.latex}
 
 \input{./authors.latex}
+
+\input{./toc.latex}
 
 \end{document}

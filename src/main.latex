@@ -69,6 +69,10 @@
 
 \input{./poetry.latex}
 
+% forbid widows and orphans
+\widowpenalty=10000
+\clubpenalty=10000
+
 \input{./prose.latex}
 
 \input{./authors.latex}

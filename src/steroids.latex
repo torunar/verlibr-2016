@@ -1,19 +1,19 @@
 % title of a section
 \newcommand{\ssection}[2][]{
-    \addcontentsline{toc}{section}{#1}
     \clearpage
     \section*{
         \so{#2}
     }
+    \addcontentsline{toc}{section}{#1}
 }
 
 % author name
 \newcommand{\aauthor}[2][\clearpage]{{
-    \addcontentsline{toc}{subsection}{#2}
     #1
     \subsection*{
         \textit{#2}
     }
+    \addcontentsline{toc}{subsection}{#2}
 }}
 
 % title

@@ -16,4 +16,4 @@ $ chmod +x build.sh
 $ ./build.sh
 ```
 
-Собранный файл будет помещен в `./bin/main.pdf`.
+Собранный файл будет помещен в `./bin/verlibr.pdf`.

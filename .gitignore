@@ -1,6 +1,6 @@
-*.aux
-*.log
-*.pdf
-*.gz
-*.toc
+bin/*.gz
+bin/*.aux
+bin/*.log
+bin/*.toc
+bin/main.pdf
 doc

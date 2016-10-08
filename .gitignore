@@ -3,5 +3,5 @@ bin/*.aux
 bin/*.log
 bin/*.toc
 bin/main.pdf
-bin/verlibr-2016.pdf
+bin/verlibr.pdf
 doc

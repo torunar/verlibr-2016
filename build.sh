@@ -18,5 +18,5 @@ pdfunite               \
 	title-page-rev.pdf \
 	main.pdf           \
 	colophon.pdf       \
-	verlibr-2016.pdf
+	verlibr.pdf
 

@@ -52,6 +52,14 @@
     {\titlerule*[1em]{.}\contentspage}
     []
 
+\titlecontents{subsection}
+    [1em]
+    {\vspace{-0.01em}}
+    {\contentsmargin{0pt}\thecontentslabel\enspace}
+    {\contentsmargin{0pt}}
+    {\titlerule*[1em]{.}\contentspage}
+    []
+
 % toc title
 \addto\captionsrussian{
   \renewcommand{\contentsname}

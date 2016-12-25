@@ -31,6 +31,9 @@
 \usepackage{soulutf8}
 \sodef\so{}{.03em}{0.5em}{0pt}
 
+% spacings
+\usepackage{setspace}
+
 % special titles properties
 \usepackage{titlesec}
 \titleformat{\section}

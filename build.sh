@@ -20,3 +20,4 @@ pdfunite               \
 	colophon.pdf       \
 	verlibr.pdf
 
+rm main*
